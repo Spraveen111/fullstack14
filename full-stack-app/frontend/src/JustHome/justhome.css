@@ -1,0 +1,35 @@
+.main-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: black;
+}
+.main-title {
+  font-family: fantasy;
+}
+.image-size {
+  height: 300px;
+  width: 300px;
+}
+.main-title {
+  color: rgb(110, 81, 222);
+}
+.heading {
+  color: white;
+}
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: solid black 1px;
+
+  color: black;
+}
+.button:hover {
+  background-color: black;
+  border: 0px;
+  color: white;
+}

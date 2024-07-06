@@ -1,0 +1,94 @@
+.signup-main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*   
+  background: linear-gradient(to right, 
+  black, 
+  
+  #050A30, 
+  #000C66, 
+  #0000FF, 
+  #7EC8E3); */
+}
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.signup-form-container {
+  width: 100%; /* Ensure the form container takes full width */
+  max-width: 400px; /* Adjust max-width as needed */
+  padding: 40px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: solid 1px white;
+  border-radius: 30px;
+}
+
+.signup-input-container-image {
+  display: flex;
+}
+.signup-image-elemenet {
+  height: 80px;
+  width: 80px;
+}
+
+.signup-input-container {
+  margin: 10px;
+}
+.signup-label-element-name {
+  padding-right: 74px;
+  color: white;
+}
+.signup-label-element-phone {
+  padding-right: 10px;
+  color: white;
+}
+.signup-label-element-email {
+  padding-right: 78px;
+  color: white;
+}
+.signup-label-element-password {
+  padding-right: 50px;
+  color: white;
+}
+.signup-input-element {
+  background-color: transparent;
+  border: solid yellow 1px;
+
+  color: yellow;
+  padding: 8px;
+  border-radius: 10px;
+}
+.signup-button-css {
+  padding: 8px;
+  border-radius: 10px;
+  border: solid yellow 1px;
+
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+.button-container {
+  padding-top: 30px;
+}
+.signup-button-css:hover {
+  background-color: #622d4e;
+  color: white;
+  border: 0px;
+}
